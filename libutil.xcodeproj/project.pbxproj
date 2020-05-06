@@ -7,18 +7,6 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		3EB206C51F5096F100B150D3 /* bridgeos */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3EB206CC1F5096F100B150D3 /* Build configuration list for PBXAggregateTarget "bridgeos" */;
-			buildPhases = (
-			);
-			dependencies = (
-				3EB206C61F5096F100B150D3 /* PBXTargetDependency */,
-				3EB206C81F5096F100B150D3 /* PBXTargetDependency */,
-			);
-			name = bridgeos;
-			productName = ios;
-		};
 		FDA4990F199D69B800A32E83 /* tests */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = FDA49910199D69B800A32E83 /* Build configuration list for PBXAggregateTarget "tests" */;
@@ -43,19 +31,6 @@
 			);
 			name = osx;
 			productName = OSX;
-		};
-		FDBC26E81741B09D00CA4B2B /* ios */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = FDBC26E91741B09D00CA4B2B /* Build configuration list for PBXAggregateTarget "ios" */;
-			buildPhases = (
-			);
-			dependencies = (
-				FDBC27021741B1B500CA4B2B /* PBXTargetDependency */,
-				FDA49914199D69C100A32E83 /* PBXTargetDependency */,
-				FDBC27041741B1B700CA4B2B /* PBXTargetDependency */,
-			);
-			name = ios;
-			productName = ios;
 		};
 /* End PBXAggregateTarget section */
 
@@ -92,33 +67,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EB206C71F5096F100B150D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA79F9C413BB718B006A292D;
-			remoteInfo = util;
-		};
-		3EB206C91F5096F100B150D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDA4990F199D69B800A32E83;
-			remoteInfo = tests;
-		};
 		3EB98B661E37CEFE0059EC72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FDBC26EF1741B13400CA4B2B;
 			remoteInfo = tzlinkd;
-		};
-		FDA49913199D69C100A32E83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDA4990F199D69B800A32E83;
-			remoteInfo = tests;
 		};
 		FDA49915199D69C600A32E83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -140,20 +94,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = BA79F9C413BB718B006A292D;
 			remoteInfo = util;
-		};
-		FDBC27011741B1B500CA4B2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA79F9C413BB718B006A292D;
-			remoteInfo = util;
-		};
-		FDBC27031741B1B700CA4B2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA79F99713BB70D7006A292D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDBC26EF1741B13400CA4B2B;
-			remoteInfo = tzlinkd;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -462,8 +402,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDBC26E81741B09D00CA4B2B /* ios */,
-				3EB206C51F5096F100B150D3 /* bridgeos */,
 				FDBC26E41741B09300CA4B2B /* osx */,
 				BA79F9C413BB718B006A292D /* util */,
 				FDBC26EF1741B13400CA4B2B /* tzlinkd */,
@@ -540,25 +478,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3EB206C61F5096F100B150D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA79F9C413BB718B006A292D /* util */;
-			targetProxy = 3EB206C71F5096F100B150D3 /* PBXContainerItemProxy */;
-		};
-		3EB206C81F5096F100B150D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDA4990F199D69B800A32E83 /* tests */;
-			targetProxy = 3EB206C91F5096F100B150D3 /* PBXContainerItemProxy */;
-		};
 		3EB98B671E37CEFE0059EC72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FDBC26EF1741B13400CA4B2B /* tzlinkd */;
 			targetProxy = 3EB98B661E37CEFE0059EC72 /* PBXContainerItemProxy */;
-		};
-		FDA49914199D69C100A32E83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDA4990F199D69B800A32E83 /* tests */;
-			targetProxy = FDA49913199D69C100A32E83 /* PBXContainerItemProxy */;
 		};
 		FDA49916199D69C600A32E83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -575,35 +498,9 @@
 			target = BA79F9C413BB718B006A292D /* util */;
 			targetProxy = FDBC26FF1741B1B300CA4B2B /* PBXContainerItemProxy */;
 		};
-		FDBC27021741B1B500CA4B2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA79F9C413BB718B006A292D /* util */;
-			targetProxy = FDBC27011741B1B500CA4B2B /* PBXContainerItemProxy */;
-		};
-		FDBC27041741B1B700CA4B2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDBC26EF1741B13400CA4B2B /* tzlinkd */;
-			targetProxy = FDBC27031741B1B700CA4B2B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3EB206CD1F5096F100B150D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		3EB206CE1F5096F100B150D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		BA79F99C13BB70D7006A292D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F09C378186D1F73007AF93C /* base.xcconfig */;
@@ -781,22 +678,6 @@
 			};
 			name = Release;
 		};
-		FDBC26EA1741B09D00CA4B2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FDBC26EB1741B09D00CA4B2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		FDBC26F61741B13400CA4B2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDBC270D1741B66500CA4B2B /* tzlinkd.xcconfig */;
@@ -818,15 +699,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EB206CC1F5096F100B150D3 /* Build configuration list for PBXAggregateTarget "bridgeos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3EB206CD1F5096F100B150D3 /* Debug */,
-				3EB206CE1F5096F100B150D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BA79F99A13BB70D7006A292D /* Build configuration list for PBXProject "libutil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -868,15 +740,6 @@
 			buildConfigurations = (
 				FDBC26E51741B09300CA4B2B /* Debug */,
 				FDBC26E61741B09300CA4B2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDBC26E91741B09D00CA4B2B /* Build configuration list for PBXAggregateTarget "ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDBC26EA1741B09D00CA4B2B /* Debug */,
-				FDBC26EB1741B09D00CA4B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
