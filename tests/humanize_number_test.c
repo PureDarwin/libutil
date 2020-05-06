@@ -30,7 +30,7 @@
 
 #include <sys/param.h>
 #include <inttypes.h>
-#include <libutil.h>
+#include "../libutil.h"
 #include <limits.h>
 #include <math.h>
 #include <stdio.h>
