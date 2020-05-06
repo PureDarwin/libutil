@@ -454,6 +454,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BA79F99513BB70D7006A292D;
@@ -627,7 +628,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F7A5E8820510D34007087AF /* lib.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DYLIB_COMPATIBILITY_VERSION = 1.0;
 				DYLIB_CURRENT_VERSION = 1.0;
 				EXECUTABLE_PREFIX = lib;
@@ -654,7 +654,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F7A5E8820510D34007087AF /* lib.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DYLIB_COMPATIBILITY_VERSION = 1.0;
 				DYLIB_CURRENT_VERSION = 1.0;
 				EXECUTABLE_PREFIX = lib;
