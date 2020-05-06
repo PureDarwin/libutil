@@ -1,1 +1,1 @@
-#include "<DEVELOPER_DIR>/Makefiles/CoreOS/Xcode/BSD.xcconfig"
+#include "../darwinbuild.xcconfig"
